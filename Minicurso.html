@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini Curso de Python</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#f5f7fb;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#3776AB,#FFD43B);
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+header h1{
+font-size:3rem;
+}
+
+header p{
+font-size:1.2rem;
+margin-top:10px;
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+padding:40px 0;
+}
+
+.card{
+background:white;
+padding:25px;
+margin:25px 0;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+h2{
+color:#3776AB;
+margin-bottom:15px;
+}
+
+pre{
+background:#1e1e1e;
+color:#00ff88;
+padding:15px;
+border-radius:10px;
+overflow:auto;
+margin-top:10px;
+}
+
+ul{
+margin-left:20px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>🐍 Mini Curso de Python</h1>
+<p>Aprende Python desde cero de forma fácil y rápida</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>¿Qué es Python?</h2>
+<p>
+Python es uno de los lenguajes de programación más populares del mundo.
+Se utiliza para crear páginas web, inteligencia artificial, videojuegos,
+automatización y análisis de datos.
+</p>
+</div>
+
+<div class="card">
+<h2>Primer programa</h2>
+<p>La función <b>print()</b> sirve para mostrar texto en pantalla.</p>
+
+<pre>
+print("Hola Mundo")
+</pre>
+</div>
+
+<div class="card">
+<h2>Variables</h2>
+<p>Las variables almacenan información.</p>
+
+<pre>
+nombre = "Axel"
+edad = 16
+
+print(nombre)
+print(edad)
+</pre>
+</div>
+
+<div class="card">
+<h2>Tipos de datos</h2>
+
+<ul>
+<li>String → Texto</li>
+<li>Integer → Números enteros</li>
+<li>Float → Decimales</li>
+<li>Boolean → Verdadero o falso</li>
+</ul>
+
+<pre>
+texto = "Python"
+numero = 10
+decimal = 3.14
+activo = True
+</pre>
+
+</div>
+
+<div class="card">
+<h2>Entrada de datos</h2>
+
+<p>Con input() el usuario puede escribir información.</p>
+
+<pre>
+nombre = input("Escribe tu nombre: ")
+
+print("Hola", nombre)
+</pre>
+
+</div>
+
+<div class="card">
+<h2>Operadores Matemáticos</h2>
+
+<pre>
+suma = 5 + 3
+resta = 5 - 3
+multiplicacion = 5 * 3
+division = 5 / 3
+
+print(suma)
+</pre>
+
+</div>
+
+<div class="card">
+<h2>Condicionales</h2>
+
+<p>Permiten tomar decisiones.</p>
+
+<pre>
+edad = 18
+
+if edad >= 18:
+    print("Mayor de edad")
+else:
+    print("Menor de edad")
+</pre>
+
+</div>
+
+<div class="card">
+<h2>Bucles</h2>
+
+<p>Repiten acciones varias
